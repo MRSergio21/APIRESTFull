@@ -10,4 +10,4 @@ app.use(express.json());
 app.use(cors());
 app.use(router);
 db().then(() => console.log('Conexion Ready'));
-app.listen(PORT, () => console.log(`Listo para correr perro en el puerto ${PORT}`));
+app.listen(PORT, () => console.log(`Listo para correr la APP ${PORT}`));
