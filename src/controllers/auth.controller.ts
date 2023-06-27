@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { registerNewUser, loginUser } from "../servicios/auth.services"
+import { registerNewUser, loginUser } from "../services/auth.services"
 import { handleHttp } from "../utils/error.handle";
 
 const registerAuthCtrl = async (req: Request, res: Response) => {

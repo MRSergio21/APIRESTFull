@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { getItem, getItems, updateItem, postItem, deleteItem } from "../controllers/item";
+import { getItem, getItems, updateItem, postItem, deleteItem } from "../controllers/item.controller";
 import { logMiddleware } from "../middleware/log";
 
 const router = Router()
