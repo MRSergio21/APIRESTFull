@@ -1,8 +1,8 @@
-import { Request, Response } from "express"
+import { Request } from "express"
 import { JwtPayload } from "jsonwebtoken";
 
 interface RequestExt extends Request {
-    user?: String | JwtPayload;
+    user?: JwtPayload | {id: String };
 }
 
 export { RequestExt }
